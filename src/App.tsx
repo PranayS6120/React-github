@@ -1,18 +1,10 @@
 import './App.css'
-import Body from './Pages/Body'
-import Footer from './Pages/Footer'
-import Header from './Pages/Header'
-// import PullRequest from './Pages/PullRequest'
-import SubHeader from './Pages/SubHeader'
+import LandingPage from './Pages/LandingPage'
 
 function App() {
   return (
     <>
-      <Header />
-      <SubHeader />
-      {/* <PullRequest/> */}
-      <Body />
-      <Footer />
+      <LandingPage />
     </>
   )
 }
