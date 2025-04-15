@@ -9,7 +9,7 @@ import {
 
 function Conversation() {
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 p-6 bg-gray-50 min-h-screen'>
+    <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 p-6 bg-gray-50'>
       {/* Main conversation thread */}
       <div className='lg:col-span-3 space-y-4'>
         <Card>
